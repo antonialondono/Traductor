@@ -23,7 +23,7 @@ image = Image.open('idiomas_01.png')
 
 st.image(image,width=300)
 with st.sidebar:
-    st.subheader("Traductor.")
+    st.subheader("Instrucciones.")
     st.write("Presiona el botón de escuchar, cuando escuches la señal "
                  "Dí lo que quieres traducir, luego selecciona"   
                  " la configuración de lenguaje que necesites.")
